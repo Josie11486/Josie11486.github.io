@@ -1,0 +1,124 @@
+.job {
+  margin-top: 30px;
+}
+
+.item {
+  margin: 40px;
+  padding: 20px;
+  padding-bottom: 40px;
+  background-color: rgb(255, 230, 230);
+  border: 2px black solid
+}
+
+
+#noformat {
+  list-style-type: none;
+}
+
+
+#education, #leadership, #experience {
+  padding-left: 50px;
+}
+
+header {
+  display: grid;
+  justify-items: center;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: /* 100px 100px 100px; */  repeat(3, 150px);
+  grid-column-gap: 20px;
+  justify-items: center;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+nav div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+body {
+  background-color: rgb(255, 254, 254);
+  max-width: 960px;
+  min-width: 675px;
+  margin: 0 auto;
+}
+
+h3,
+div p {
+  font-size: 23px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+}
+
+div h3:after,
+div p:after {
+  content: "//";
+}
+
+/* space under name/title/date */
+div h3,
+div p {
+  margin-bottom: 10px;
+}
+
+div p:last-child:after {
+  content: "";
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover,
+img:hover {
+  color: rgb(155, 104, 104);
+}
+
+a:active {
+  color: rgb(155, 104, 104);
+}
+
+aside {
+  font-style: italic;
+  margin-top: 20px;
+}

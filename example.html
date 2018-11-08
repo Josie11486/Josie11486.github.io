@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+
+      /* p:before {
+        content: "BEFORE!";
+      }
+
+      p:after{
+        content: "AFTER!";
+      } */
+
+      h3,
+      div p {
+        font-size: 24px;
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      div h3:after,
+      div p:after {
+        content: "//";
+        padding: 0 10px;
+      }
+
+      div p:last-child:after {
+        content: "";
+      }
+
+    </style>
+
+  </body>
+
+    <h2>University of Florida</h2>
+
+    <div>
+      <h3>Lecturer</h3>
+      <p>University of Miami</p>
+      <p>2014 - Present</p>
+    </div>
+
+  </body>
+</html>
