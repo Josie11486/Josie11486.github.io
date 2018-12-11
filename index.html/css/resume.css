@@ -18,7 +18,7 @@ header {
     text-align: center;
     color: white;
     font-family: Source Code Pro, arial;
-    background-image: url("/images/clouds.jpg");
+    background-image: url("../images/clouds.jpg");
     background-size: cover;
     padding: 80px 0px 30px 0px;
 }
