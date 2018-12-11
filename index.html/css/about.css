@@ -1,0 +1,123 @@
+
+
+header {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: Source Code Pro, arial;
+    background-image: url("/images/clouds.jpg");
+    background-size: cover;
+    padding: 80px 0px 30px 0px;
+}
+
+nav {
+  opacity: 0.6;
+  padding: 5px 20px 20px 20px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+nav a {
+  color: #000000;
+  padding: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Poppins, arial;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #87a7ed;
+  opacity: 1;
+}
+
+a:visited {
+  color: color: #333;
+}
+
+body {
+    color: #333;
+    padding: 30px;
+    background: #f1f1f1;
+    font-family: Montserrat, arial;
+    font-size: 19px;
+}
+
+h2 {
+  font-family: Poppins, arial;
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+p {
+  font-family: Montserrat, arial;
+  margin-bottom: 0px;
+  font-size: 19px;
+}
+
+footer {
+  margin: 20px;
+  clear: both;
+}
+
+/* Create two unequal columns that float next to each other */
+/* Left column */
+.left {
+    float: left;
+    width: 75%;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Right column */
+.right {
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.box {
+     background-color: white;
+     padding: 23px 30px 30px 30px;
+     margin: 30px 0px 0px 0px;
+}
+
+.wide {
+  width: 100%;
+}
+
+/* Responsive layout - columns stack */
+@media screen and (max-width: 995px) {
+    .left, .right {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - font size gets smaller */
+@media screen and (max-width: 780px) {
+  h3 {
+    font-size: 40px;
+  }
+  nav a {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+/* Responsive layout - navigation stacks */
+@media screen and (max-width: 480px) {
+  nav a, nav {
+    float: none;
+    display: block;
+    padding: 10px;
+
+  }
+}
