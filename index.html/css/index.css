@@ -5,7 +5,7 @@ header {
     font-family: Source Code Pro, arial;
     background-size: cover;
     padding: 80px 0px 30px 0px;
-    background-image: url("images/clouds.jpg");
+    background-image: url("../images/clouds.jpg");
 }
 
 nav {
