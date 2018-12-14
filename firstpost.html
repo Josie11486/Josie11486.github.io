@@ -2,32 +2,37 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
   <title>Blog.jos</title>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:900i|Source+Code+Pro:500|Montserrat:300" rel="stylesheet">
   <meta name="author" content="Josephine Argento, Josei Argento, jos">
   <meta name="keywords" content="blog, college, Miami, Chicago, beauty, culture, memes">
   <meta name="description" content=".jos lifetsyle blog.">
-  <link rel="stylesheet" href="css/firstpost.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/p5.js"></script>
+  <script src="js/p5.dom.js"></script>
+  <script src="js/sketch.js"></script>
 </head>
-<header>
-    <h1>.jos</h1>
-    <!-- NAVIGATION -->
-    <nav>
-      <a href="index.html">HOME</a>
-      <a href="resume.html">RESUME</a>
-      <a href="about.html">ABOUT ME</a>
-    </nav>
-</header>
 
 <body>
+
+  <header>
+      <h1>.jos</h1>
+      <!-- NAVIGATION -->
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="resume.html">RESUME</a>
+        <a href="about.html">ABOUT ME</a>
+      </nav>
+  </header>
+
   <main>
   <!-- BLOG POST 1 -->
-    <div class="left">
+    <div class="wide">
       <div class="box">
         <h2>A BLOG IS BORN:</h2>
-        <img src="images/wip8.jpg" class = "wide" alt="A blog birth">
+        <div class="wide" id="sketch-holder"> </div>
+        <img src="images/wip8.jpg" class = "wide" alt="Image: A Blog Is Born">
         <p><b>Dec 7th, 2018</b></p>
         <p>They say life is what happens while you’re busy making other plans.</p>
 
@@ -41,13 +46,14 @@
 
         <p>My most recent plan is to use this website to continue exploring my various interests and improving my coding skills. I also want it to serve as a professional yet personal representation of myself that I can share with friends, family and future employers. But most importantly, I want it to be a place where all my big ideas and little plans can exist outside of my head, so that I have the clarity to enjoy life as it happens.</p>
 
-        <p><a href="index.html">BACK</a></p>
+        <p><a class="blue" href="index.html">BACK</a></p>
       </div>
     </div>
   </main>
-</body>
 
-<footer>
-</footer>
+  <footer>
+  </footer>
+
+</body>
 
 </html>

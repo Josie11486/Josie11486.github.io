@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,500|Poppins:900i|Source+Code+Pro:500');
 
 body {
       color: #333;
       padding: 30px;
       background: #f1f1f1;
       font-family: Montserrat;
-      font-size: 19px;
+      font-weight: 300;
+      font-size: 20px;
   }
 
 p {
     font-size: 19px;
-    font-family: Montserrat;
     margin-bottom: 0px;
+    color: #333;
   }
 
 header {
@@ -44,14 +46,14 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #87a7ed;
-  opacity: 1;
+a:visited {
+  color: #333;
 }
 
-a:visited {
-  color: color: #333;
+a:hover {
+  color: #87a7ed;
 }
+
 
 h2 {
   font-family: Poppins, arial;
@@ -110,8 +112,21 @@ footer {
   clear: both;
 }
 
+img {
+  margin-bottom: 22px;
+}
+
 /* Create two unequal columns that float next to each other */
 /* Left column */
+
+.blue {
+  color: #87a7ed;
+}
+
+.blue:visited {
+  color: #87a7ed;
+}
+
 .left {
     float: left;
     width: 75%;
@@ -129,13 +144,9 @@ footer {
 }
 
 .box {
-     background-color: white;
-     padding: 23px 30px 30px 30px;
-     margin: 30px 0px 0px 0px;
-}
-
-.wide {
-  width: 100%;
+  background-color: white;
+  padding: 23px 30px 30px 30px;
+  margin: 30px 0px 0px 0px;
 }
 
 .job {
@@ -149,8 +160,18 @@ footer {
   margin-top: 50px;
 }
 
+.wide {
+  width: 100%;
+  float: left;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
 /* Responsive layout - columns stack */
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1115px) {
     .left, .right {
         width: 100%;
         padding: 0;
